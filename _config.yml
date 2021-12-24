@@ -1,4 +1,4 @@
-remote_theme: Drassil/git-wiki-theme@master
+remote_theme: kcalbSphere/npw-theme@master
 # (string) Title of your wiki
 title: "nuclearphase-wiki"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
@@ -140,6 +140,6 @@ inc_before_tools :
 inc_after_tools : 
 
 inc_before_page_list :
-inc_after_page_list : sidebar.html
-inc_before_post_list :
+inc_after_page_list : 
+inc_before_post_list : sidebar.html
 inc_after_post_list :
