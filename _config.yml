@@ -1,4 +1,4 @@
-remote_theme: kcalbSphere/npw-theme@master
+remote_theme: Drassil/git-wiki-theme@master
 # (string) Title of your wiki
 title: "nuclearphase-wiki"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
@@ -68,16 +68,22 @@ kramdown:
   syntax_highlighter: rouge
 
 defaults:
+ -
+    scope:
+      path: ""
+    values:
+      layout: "git-wiki-bs-united"
+ -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "git-wiki-bs-united"
  - 
     scope:
       path: "wiki"
     values:
       permalink: /:basename
- -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "git-wiki-default"
  -
     scope:
       path: ""
