@@ -21,7 +21,7 @@ paginate: 5
 paginate_path: "/blog/page:num"
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 # (boolean) Enable/disable download buttons in sidebar
-show_downloads: true
+show_downloads: false
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
 git_branch: "master"
 # (string) Url of logo image, it can be full, absolute or relative.
@@ -75,11 +75,6 @@ defaults:
       permalink: /:basename
  -
     scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "git-wiki-default"
- -
-    scope:
       path: ""
       type: "pages"
     values:
@@ -115,6 +110,7 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-gitlab-metadata
+  - jekyll-auto-image
 
 
 #
