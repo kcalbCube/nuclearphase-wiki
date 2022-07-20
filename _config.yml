@@ -3,9 +3,9 @@ remote_theme: Drassil/git-wiki-theme@master
 title: "nuclearphase-wiki"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
-baseurl: "nuclearphase-wiki"
+baseurl: "manhattan-city-wiki"
 # (string) Description of your wiki
-description: "Official wiki of NuclearPhase project"
+description: "Официальная википедия Manhattan City"
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: false
 # (integer) Maximum number of wiki page to shown in sidebar
@@ -25,7 +25,7 @@ show_downloads: false
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
 git_branch: "master"
 # (string) Url of logo image, it can be full, absolute or relative.
-logo_url: "https://cdn.discordapp.com/icons/919915640586899466/54a53af8883576af460df4e974c60036.webp"
+logo_url: "https://media.discordapp.net/attachments/991351288560369774/992031340570624101/retrowavedone.gif"
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
 google_analytics: 
 # (string) folder where wiki pages are stored, it's needed for tool buttons
